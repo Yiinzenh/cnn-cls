@@ -1,0 +1,49 @@
+# Python 缓存与字节码
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 打包与构建产物
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# IDE 与编辑器
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# 数据集
+datasets/
+
+# 训练与评估产物
+outputs/
+
+# 模型权重
+*.pt
+*.pth
+*.ckpt
+
+# 实验报告
+report.txt
+
+# 日志与测试缓存
+*.log
+.pytest_cache/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
